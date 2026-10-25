@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuietByte — Free software, built quietly</title>
+<meta name="description" content="QuietByte builds free, open-source desktop software for everyone to use, share and build on.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230d1117'/%3E%3Crect x='9' y='9' width='14' height='14' rx='3' fill='none' stroke='%2358e6b0' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%2358e6b0'/%3E%3C/svg%3E">
+<style>
+:root{--bg:#0b0f14;--panel:#111821;--line:#1e2936;--text:#e6edf3;--mute:#8b98a8;--accent:#58e6b0;--warn:#f2c14e;--info:#6cb6ff;--r:14px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;background:radial-gradient(800px 400px at 20% -10%,rgba(88,230,176,.09),transparent 60%),radial-gradient(600px 400px at 90% 0,rgba(108,182,255,.07),transparent 60%);pointer-events:none}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px;position:relative}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}
+.logo{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.2px;color:var(--text);text-decoration:none}
+.logo svg{width:28px;height:28px}
+nav a.gh{color:var(--mute);text-decoration:none;font-size:14px;border:1px solid var(--line);padding:6px 14px;border-radius:99px;transition:.2s}
+nav a.gh:hover{color:var(--text);border-color:var(--accent)}
+.hero{padding:70px 0 50px}
+.hero h1{font-size:clamp(34px,6vw,60px);line-height:1.08;margin:0 0 18px;letter-spacing:-1.2px;max-width:14em}
+.hero h1 span{color:var(--accent)}
+.hero p{color:var(--mute);font-size:18px;max-width:34em;margin:0 0 28px}
+.btn{display:inline-block;padding:11px 20px;border-radius:10px;background:var(--accent);color:#04120c;font-weight:600;text-decoration:none;margin-right:10px;transition:.2s}
+.btn:hover{transform:translateY(-1px);filter:brightness(1.08)}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
+.btn.ghost:hover{border-color:var(--accent)}
+h2{font-size:14px;text-transform:uppercase;letter-spacing:2px;color:var(--mute);margin:50px 0 18px;font-weight:600}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.filters button{background:transparent;border:1px solid var(--line);color:var(--mute);padding:6px 14px;border-radius:99px;cursor:pointer;font:inherit;font-size:14px;transition:.2s}
+.filters button:hover{color:var(--text)}
+.filters button.on{background:var(--panel);color:var(--accent);border-color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;transition:.2s}
+.card:hover{border-color:#2d3d50;transform:translateY(-2px)}
+.card .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;gap:8px}
+.card h3{margin:0;font-size:20px;letter-spacing:-.3px}
+.badge{font-size:12px;padding:3px 10px;border-radius:99px;border:1px solid;white-space:nowrap}
+.released{color:var(--accent);border-color:rgba(88,230,176,.4);background:rgba(88,230,176,.08)}
+.development{color:var(--info);border-color:rgba(108,182,255,.4);background:rgba(108,182,255,.08)}
+.planned{color:var(--warn);border-color:rgba(242,193,78,.4);background:rgba(242,193,78,.08)}
+.tag{color:var(--text);font-size:15px;margin:0 0 6px}
+.desc{color:var(--mute);font-size:14px;margin:0 0 16px;flex:1}
+.meta{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.meta span{font-size:12px;color:var(--mute);background:#0b1017;border:1px solid var(--line);padding:2px 9px;border-radius:6px}
+.links a{color:var(--accent);text-decoration:none;font-size:14px;margin-right:16px}
+.links a:hover{text-decoration:underline}
+.about{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.about div{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:20px}
+.about h4{margin:0 0 6px;font-size:16px}
+.about p{margin:0;color:var(--mute);font-size:14px}
+footer{margin:70px 0 40px;padding-top:24px;border-top:1px solid var(--line);color:var(--mute);font-size:14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+footer a{color:var(--mute)}
+.empty{color:var(--mute)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="logo" href="#">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="3" width="26" height="26" rx="7" fill="none" stroke="#58e6b0" stroke-width="2.2"/><circle cx="16" cy="16" r="3" fill="#58e6b0"/></svg>
+      QuietByte
+    </a>
+    <a class="gh" href="https://github.com/quietbytehq">GitHub</a>
+  </nav>
+
+  <header class="hero">
+    <h1>Free software, <span>built quietly.</span></h1>
+    <p>Open-source desktop apps for Linux and Windows. Free to use, share and build on — including commercially.</p>
+    <a class="btn" href="#projects">Browse projects</a>
+    <a class="btn ghost" href="https://github.com/quietbytehq">View on GitHub</a>
+  </header>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="filters" id="filters"></div>
+    <div class="grid" id="grid"><p class="empty">Loading…</p></div>
+  </section>
+
+  <section>
+    <h2>Principles</h2>
+    <div class="about">
+      <div><h4>Free for everyone</h4><p>Open licences, no strings. Use it, fork it, ship it.</p></div>
+      <div><h4>Quiet by design</h4><p>Software that does its job and stays out of your way.</p></div>
+      <div><h4>Cross-platform</h4><p>Linux first, with Windows alongside wherever it makes sense.</p></div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© <span id="yr"></span> QuietByte</span>
+    <span><a href="https://github.com/quietbytehq">github.com/quietbytehq</a></span>
+  </footer>
+</div>
+
+<script>
+const LABEL={released:"Released",development:"In development",planned:"Planned"};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let all=[],filter="all";
+document.getElementById("yr").textContent=new Date().getFullYear();
+
+function render(){
+  const list=all.filter(p=>filter==="all"||p.status===filter);
+  const g=document.getElementById("grid");
+  g.innerHTML=list.length?list.map(p=>`
+    <article class="card">
+      <div class="top"><h3>${esc(p.name)}</h3><span class="badge ${esc(p.status)}">${LABEL[p.status]||esc(p.status)}${p.version?" · "+esc(p.version):""}</span></div>
+      <p class="tag">${esc(p.tagline||"")}</p>
+      <p class="desc">${esc(p.description||"")}</p>
+      <div class="meta">${(p.platforms||[]).map(x=>`<span>${esc(x)}</span>`).join("")}${p.license?`<span>${esc(p.license)}</span>`:""}</div>
+      <div class="links">
+        ${p.download?`<a href="${esc(p.download)}">Download</a>`:""}
+        ${p.repo?`<a href="${esc(p.repo)}">Source</a>`:""}
+        ${!p.download&&!p.repo?`<span class="empty" style="font-size:14px">Coming soon</span>`:""}
+      </div>
+    </article>`).join(""):`<p class="empty">Nothing here yet.</p>`;
+}
+function filters(){
+  const f=document.getElementById("filters");
+  const keys=["all",...new Set(all.map(p=>p.status))];
+  f.innerHTML=keys.map(k=>`<button data-k="${k}" class="${k===filter?"on":""}">${k==="all"?"All":LABEL[k]||k}</button>`).join("");
+  f.onclick=e=>{const k=e.target.dataset.k;if(!k)return;filter=k;filters();render()};
+}
+fetch("projects.json").then(r=>r.json()).then(d=>{all=d.projects;filters();render()})
+ .catch(()=>{document.getElementById("grid").innerHTML='<p class="empty">Could not load projects.</p>'});
+</script>
+</body>
+</html>
