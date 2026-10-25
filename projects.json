@@ -35,7 +35,8 @@
       "description": "A native Linux client for Microsoft 365 mail and calendar via Microsoft Graph.",
       "status": "development",
       "platforms": ["Linux"],
-      "license": "Open source"
+      "license": "Open source",
+      "repo": "https://github.com/quietbytehq/graphite-mail"
     },
     {
       "name": "SkyPop",
