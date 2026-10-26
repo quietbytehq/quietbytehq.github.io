@@ -6,7 +6,7 @@
       "tagline": "School timetabling, without the headache.",
       "description": "Standalone desktop app for building school timetables, with teacher substitutions, cover sheets, undo/redo and Excel/CSV export.",
       "status": "released",
-      "version": "v0.1.3",
+      "version": "v0.2.0",
       "platforms": ["Linux", "Windows"],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/timewizer",
