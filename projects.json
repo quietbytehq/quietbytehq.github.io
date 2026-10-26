@@ -25,9 +25,12 @@
       "name": "Burn It!",
       "tagline": "Make bootable USB drives from any ISO.",
       "description": "Writes Linux and Windows ISOs to USB from either operating system. Built with Tauri (Rust + web UI).",
-      "status": "development",
+      "status": "released",
+      "version": "v0.1.0",
       "platforms": ["Linux", "Windows"],
-      "license": "Open source"
+      "license": "MIT",
+      "repo": "https://github.com/quietbytehq/burn-it",
+      "download": "https://github.com/quietbytehq/burn-it/releases/latest"
     },
     {
       "name": "Graphite Mail",
