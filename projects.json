@@ -28,7 +28,7 @@
       "status": "released",
       "version": "v0.1.0",
       "platforms": ["Linux", "Windows"],
-      "license": "MIT",
+      "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/burn-it",
       "download": "https://github.com/quietbytehq/burn-it/releases/latest"
     },
@@ -36,10 +36,12 @@
       "name": "Graphite Mail",
       "tagline": "Offline mail and calendar for Linux.",
       "description": "A native Linux client for Microsoft 365 mail and calendar via Microsoft Graph.",
-      "status": "development",
-      "platforms": ["Linux"],
-      "license": "Open source",
-      "repo": "https://github.com/quietbytehq/graphite-mail"
+      "status": "released",
+      "version": "v1.11.1",
+      "platforms": ["Linux", "Windows"],
+      "license": "Apache-2.0",
+      "repo": "https://github.com/quietbytehq/graphite-mail",
+      "download": "https://github.com/quietbytehq/graphite-mail/releases/latest"
     },
     {
       "name": "SkyPop",
