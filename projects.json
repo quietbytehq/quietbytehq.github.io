@@ -24,6 +24,17 @@
       "download": "https://github.com/quietbytehq/orbit/releases/latest"
     },
     {
+      "name": "Stingray",
+      "tagline": "Your folders, cloud drives and servers in one window.",
+      "description": "A clean, modern file manager with Google Drive, OneDrive and Dropbox built in, plus SMB, SFTP and NFS network drives. Drag and drop between any two places.",
+      "status": "released",
+      "version": "v1.0.0",
+      "platforms": ["Linux", "Windows"],
+      "license": "Apache-2.0",
+      "repo": "https://github.com/quietbytehq/stingray",
+      "download": "https://github.com/quietbytehq/stingray/releases/latest"
+    },
+    {
       "name": "Burn It!",
       "tagline": "Make bootable USB drives from any ISO.",
       "description": "Writes Linux and Windows ISOs to USB from either operating system. Built with Tauri (Rust + web UI).",
@@ -46,19 +57,22 @@
       "download": "https://github.com/quietbytehq/graphite-mail/releases/latest"
     },
     {
+      "name": "Madrasa",
+      "tagline": "A free school information system.",
+      "description": "Offline-capable school administration: students, attendance, exams, fees and finance, teachers, reports and backups. Pre-alpha, for testers only.",
+      "status": "development",
+      "version": "v0.1.1-alpha",
+      "platforms": ["Linux", "Windows"],
+      "license": "Apache-2.0",
+      "repo": "https://github.com/quietbytehq/madrasa",
+      "download": "https://github.com/quietbytehq/madrasa/releases"
+    },
+    {
       "name": "SkyPop",
       "tagline": "Arcade bubble-popping, in Rust.",
       "description": "A Pang-inspired arcade game written in Rust with macroquad.",
       "status": "development",
       "platforms": ["Linux", "Windows"],
-      "license": "Open source"
-    },
-    {
-      "name": "Stingray",
-      "tagline": "An eye-candy Linux file manager.",
-      "description": "Planned open-source file manager with built-in cloud drive connections.",
-      "status": "planned",
-      "platforms": ["Linux"],
       "license": "Open source"
     }
   ]
