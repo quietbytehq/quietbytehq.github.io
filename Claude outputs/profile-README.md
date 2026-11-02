@@ -9,4 +9,4 @@ We make desktop software for Linux and Windows that is free to use, share and bu
 - **[Timewizer](https://github.com/quietbytehq/timewizer)**: free, offline school timetable generator. Substitutions, cover sheets, undo/redo, Excel/CSV export.
 - **[Graphite Mail](https://github.com/quietbytehq/graphite-mail)**: offline Linux mail and calendar client for Microsoft 365.
 
-More on the way. See everything at **[quietbytehq.github.io](https://quietbytehq.github.io)**.
+More on the way. See everything at **[quietbytehq.uk](https://quietbytehq.uk)**.

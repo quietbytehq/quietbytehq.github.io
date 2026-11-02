@@ -27,4 +27,4 @@ Leave out `repo`/`download` while a project is private; the card shows "Coming s
 1. Create a public repo named `quietbytehq.github.io` in the org.
 2. Put `index.html`, `projects.json`, `README.md` in the root of `main`.
 3. Settings > Pages > Deploy from branch > `main` / root.
-4. Site appears at https://quietbytehq.github.io
+4. Site appears at https://quietbytehq.uk
