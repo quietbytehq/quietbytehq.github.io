@@ -39,7 +39,8 @@ h2{font-size:14px;text-transform:uppercase;letter-spacing:2px;color:var(--mute);
 .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;transition:.2s}
 .card:hover{border-color:#2d3d50;transform:translateY(-2px)}
 .card .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;gap:8px}
-.card h3{margin:0;font-size:20px;letter-spacing:-.3px}
+.card h3{margin:0;font-size:20px;letter-spacing:-.3px;display:flex;align-items:center;gap:10px}
+.card h3 .icon{width:36px;height:36px;border-radius:9px;flex:none}
 .badge{font-size:12px;padding:3px 10px;border-radius:99px;border:1px solid;white-space:nowrap}
 .released{color:var(--accent);border-color:rgba(88,230,176,.4);background:rgba(88,230,176,.08)}
 .development{color:var(--info);border-color:rgba(108,182,255,.4);background:rgba(108,182,255,.08)}
@@ -109,7 +110,7 @@ function render(){
   const g=document.getElementById("grid");
   g.innerHTML=list.length?list.map(p=>`
     <article class="card">
-      <div class="top"><h3>${esc(p.name)}</h3><span class="badge ${esc(p.status)}">${LABEL[p.status]||esc(p.status)}${p.version?" · "+esc(p.version):""}</span></div>
+      <div class="top"><h3>${p.icon?`<img class="icon" src="${esc(p.icon)}" alt="" width="36" height="36">`:""}${esc(p.name)}</h3><span class="badge ${esc(p.status)}">${LABEL[p.status]||esc(p.status)}${p.version?" · "+esc(p.version):""}</span></div>
       <p class="tag">${esc(p.tagline||"")}</p>
       <p class="desc">${esc(p.description||"")}</p>
       <div class="meta">${(p.platforms||[]).map(x=>`<span>${esc(x)}</span>`).join("")}${p.license?`<span>${esc(p.license)}</span>`:""}</div>

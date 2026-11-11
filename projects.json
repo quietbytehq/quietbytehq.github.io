@@ -7,7 +7,10 @@
       "description": "Standalone desktop app for building school timetables, with teacher substitutions, cover sheets, undo/redo and Excel/CSV export.",
       "status": "released",
       "version": "v0.2.0",
-      "platforms": ["Linux", "Windows"],
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/timewizer",
       "download": "https://github.com/quietbytehq/timewizer/releases/latest"
@@ -18,7 +21,10 @@
       "description": "Connect, browse, back up and mount your cloud storage with wizards and plain-language screens. Google Drive, OneDrive, Dropbox, S3, SFTP and network shares.",
       "status": "released",
       "version": "v1.0.1",
-      "platforms": ["Linux", "Windows"],
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/orbit",
       "download": "https://github.com/quietbytehq/orbit/releases/latest"
@@ -29,10 +35,14 @@
       "description": "A clean, modern file manager with Google Drive, OneDrive and Dropbox built in, plus SMB, SFTP and NFS network drives. Tabs and split view, archive browsing, undo/redo, a built-in terminal and a preview panel.",
       "status": "released",
       "version": "v2.0.1",
-      "platforms": ["Linux", "Windows"],
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/stingray",
-      "download": "https://github.com/quietbytehq/stingray/releases/latest"
+      "download": "https://github.com/quietbytehq/stingray/releases/latest",
+      "icon": "icons/stingray.png"
     },
     {
       "name": "Burn It!",
@@ -40,7 +50,10 @@
       "description": "Writes Linux and Windows ISOs to USB from either operating system. Built with Tauri (Rust + web UI).",
       "status": "released",
       "version": "v0.1.0",
-      "platforms": ["Linux", "Windows"],
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/burn-it",
       "download": "https://github.com/quietbytehq/burn-it/releases/latest"
@@ -51,7 +64,10 @@
       "description": "A native Linux client for Microsoft 365 mail and calendar via Microsoft Graph.",
       "status": "released",
       "version": "v1.12.1",
-      "platforms": ["Linux", "Windows (beta)"],
+      "platforms": [
+        "Linux",
+        "Windows (beta)"
+      ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/graphite-mail",
       "download": "https://github.com/quietbytehq/graphite-mail/releases/latest"
@@ -62,7 +78,10 @@
       "description": "Offline-capable school administration: students, attendance, exams, fees and finance, teachers, reports and backups, plus transport, hostel and inventory with directory login. Alpha, for testers only.",
       "status": "development",
       "version": "v0.3.1-alpha",
-      "platforms": ["Linux", "Windows"],
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/madrasa",
       "download": "https://github.com/quietbytehq/madrasa/releases"
@@ -72,7 +91,9 @@
       "tagline": "Join Linux to your domain, the friendly way.",
       "description": "A setup wizard that joins Linux desktops to an Active Directory domain: work login, network drives and printers. In early development, no release yet.",
       "status": "development",
-      "platforms": ["Linux"],
+      "platforms": [
+        "Linux"
+      ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/rabita"
     },
@@ -82,7 +103,9 @@
       "description": "Built on Firefox ESR with ad and tracker blocking, privacy defaults and a calm new-tab page. A private built-in AI agent is planned. First preview, Linux only.",
       "status": "development",
       "version": "v0.1.0",
-      "platforms": ["Linux"],
+      "platforms": [
+        "Linux"
+      ],
       "license": "MPL-2.0",
       "repo": "https://github.com/quietbytehq/LoboBrowser",
       "download": "https://github.com/quietbytehq/LoboBrowser/releases"
@@ -93,7 +116,9 @@
       "description": "A Pang-inspired arcade game written in Rust with macroquad: ten stages, power-ups and a boss fight.",
       "status": "released",
       "version": "v0.1.0",
-      "platforms": ["Linux"],
+      "platforms": [
+        "Linux"
+      ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/skypop",
       "download": "https://github.com/quietbytehq/skypop/releases/latest"
