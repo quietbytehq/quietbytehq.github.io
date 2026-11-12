@@ -122,6 +122,19 @@
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/skypop",
       "download": "https://github.com/quietbytehq/skypop/releases/latest"
+    },
+    {
+      "name": "Teamux",
+      "tagline": "Microsoft Teams, made to work on Linux.",
+      "description": "An unofficial Microsoft Teams desktop client for Linux with native Wayland, PipeWire screen sharing and camera support. Early preview; not affiliated with Microsoft.",
+      "status": "released",
+      "version": "v0.1.0",
+      "platforms": [
+        "Linux"
+      ],
+      "license": "Apache-2.0",
+      "repo": "https://github.com/quietbytehq/teamux",
+      "download": "https://github.com/quietbytehq/teamux/releases/latest"
     }
   ]
 }
