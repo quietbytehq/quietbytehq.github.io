@@ -13,7 +13,8 @@
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/timewizer",
-      "download": "https://github.com/quietbytehq/timewizer/releases/latest"
+      "download": "https://github.com/quietbytehq/timewizer/releases/latest",
+      "icon": "icons/timewizer.png"
     },
     {
       "name": "Orbit",
@@ -27,7 +28,8 @@
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/orbit",
-      "download": "https://github.com/quietbytehq/orbit/releases/latest"
+      "download": "https://github.com/quietbytehq/orbit/releases/latest",
+      "icon": "icons/orbit.png"
     },
     {
       "name": "Stingray",
@@ -56,7 +58,8 @@
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/burn-it",
-      "download": "https://github.com/quietbytehq/burn-it/releases/latest"
+      "download": "https://github.com/quietbytehq/burn-it/releases/latest",
+      "icon": "icons/burn-it.png"
     },
     {
       "name": "Graphite Mail",
@@ -70,21 +73,23 @@
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/graphite-mail",
-      "download": "https://github.com/quietbytehq/graphite-mail/releases/latest"
+      "download": "https://github.com/quietbytehq/graphite-mail/releases/latest",
+      "icon": "icons/graphite-mail.png"
     },
     {
       "name": "Madrasa",
       "tagline": "A free school information system.",
-      "description": "Offline-capable school administration: students, attendance, exams, fees and finance, teachers, reports and backups, plus transport, hostel and inventory with directory login. Alpha, for testers only.",
+      "description": "Offline-capable school administration: students, attendance, exams, fees and finance, teachers, reports and backups, plus transport, hostel and inventory with directory login, and an early Nexus hub for joining several schools. Alpha, for testers only.",
       "status": "development",
-      "version": "v0.3.1-alpha",
+      "version": "v0.4.0-alpha",
       "platforms": [
         "Linux",
         "Windows"
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/madrasa",
-      "download": "https://github.com/quietbytehq/madrasa/releases"
+      "download": "https://github.com/quietbytehq/madrasa/releases",
+      "icon": "icons/madrasa.png"
     },
     {
       "name": "Rabita",
@@ -95,7 +100,8 @@
         "Linux"
       ],
       "license": "Apache-2.0",
-      "repo": "https://github.com/quietbytehq/rabita"
+      "repo": "https://github.com/quietbytehq/rabita",
+      "icon": "icons/rabita.png"
     },
     {
       "name": "Lobster Browser",
@@ -108,7 +114,8 @@
       ],
       "license": "MPL-2.0",
       "repo": "https://github.com/quietbytehq/LoboBrowser",
-      "download": "https://github.com/quietbytehq/LoboBrowser/releases"
+      "download": "https://github.com/quietbytehq/LoboBrowser/releases",
+      "icon": "icons/lobster.png"
     },
     {
       "name": "SkyPop",
@@ -121,7 +128,8 @@
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/skypop",
-      "download": "https://github.com/quietbytehq/skypop/releases/latest"
+      "download": "https://github.com/quietbytehq/skypop/releases/latest",
+      "icon": "icons/skypop.png"
     },
     {
       "name": "Teamux",
@@ -134,7 +142,8 @@
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/teamux",
-      "download": "https://github.com/quietbytehq/teamux/releases/latest"
+      "download": "https://github.com/quietbytehq/teamux/releases/latest",
+      "icon": "icons/teamux.png"
     }
   ]
 }
