@@ -144,6 +144,20 @@
       "repo": "https://github.com/quietbytehq/teamux",
       "download": "https://github.com/quietbytehq/teamux/releases/latest",
       "icon": "icons/teamux.png"
+    },
+    {
+      "name": "The Last Pocket",
+      "tagline": "Pool, snooker and a 48-rival championship.",
+      "description": "A Linux cue-sports game: ten pool, snooker and carom modes, local two-player, AI rivals and a comic-style championship. Source is Apache-2.0; the bundled music is licensed for use inside the game only.",
+      "status": "released",
+      "version": "v0.6.1",
+      "platforms": [
+        "Linux"
+      ],
+      "license": "Apache-2.0 (source)",
+      "repo": "https://github.com/quietbytehq/the-last-pocket",
+      "download": "https://github.com/quietbytehq/the-last-pocket/releases/latest",
+      "icon": "icons/the-last-pocket.png"
     }
   ]
 }
