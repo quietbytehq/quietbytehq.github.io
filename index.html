@@ -128,7 +128,7 @@ function filters(){
   f.innerHTML=keys.map(k=>`<button data-k="${k}" class="${k===filter?"on":""}">${k==="all"?"All":LABEL[k]||k}</button>`).join("");
   f.onclick=e=>{const k=e.target.dataset.k;if(!k)return;filter=k;filters();render()};
 }
-fetch("projects.json").then(r=>r.json()).then(d=>{all=d.projects;filters();render()})
+fetch("projects.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{all=d.projects;filters();render()})
  .catch(()=>{document.getElementById("grid").innerHTML='<p class="empty">Could not load projects.</p>'});
 </script>
 </body>
