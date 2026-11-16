@@ -79,9 +79,9 @@
     {
       "name": "Madrasa",
       "tagline": "A free school information system.",
-      "description": "Offline-capable school administration: students, attendance, exams, fees and finance, teachers, reports and backups, plus transport, hostel and inventory with directory login, and an early Nexus hub for joining several schools. Alpha, for testers only.",
+      "description": "Offline-capable school administration: students, attendance, exams, fees and finance, teachers, reports and backups, plus transport, hostel, inventory and directory login. Works offline and syncs when the server is back, with an Android parent app and user manuals in English and Urdu. Alpha, for testers only.",
       "status": "development",
-      "version": "v0.4.0-alpha",
+      "version": "v0.5.0-alpha",
       "platforms": [
         "Linux",
         "Windows"
@@ -94,7 +94,7 @@
     {
       "name": "Rabita",
       "tagline": "Join Linux to your domain, the friendly way.",
-      "description": "A setup wizard that joins Linux desktops to an Active Directory domain: work login, network drives and printers. In early development, no release yet.",
+      "description": "A setup wizard that joins Linux desktops to an Active Directory domain: work login, network drives and printers. The setup wizard and an installable .deb are built; no release yet.",
       "status": "development",
       "platforms": [
         "Linux"
@@ -119,12 +119,13 @@
     },
     {
       "name": "SkyPop",
-      "tagline": "Arcade bubble-popping, in Rust.",
-      "description": "A Pang-inspired arcade game written in Rust with macroquad: ten stages, power-ups and a boss fight.",
+      "tagline": "Pop the balls, clear ten stages.",
+      "description": "A colourful Pang-inspired arcade game: ten illustrated stages, three rope styles, weapon upgrades, shields, gamepad support and local high scores. Built with Godot.",
       "status": "released",
-      "version": "v0.1.0",
+      "version": "v1.0.0",
       "platforms": [
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/skypop",
@@ -134,9 +135,9 @@
     {
       "name": "Teamux",
       "tagline": "Microsoft Teams, made to work on Linux.",
-      "description": "An unofficial Microsoft Teams desktop client for Linux with native Wayland, PipeWire screen sharing and camera support. Early preview; not affiliated with Microsoft.",
+      "description": "An unofficial Microsoft Teams desktop client for Linux with native Wayland, PipeWire screen sharing and camera support, plus a video studio with skin smoothing and screen-share audio. Early preview; not affiliated with Microsoft.",
       "status": "released",
-      "version": "v0.1.0",
+      "version": "v0.2.0",
       "platforms": [
         "Linux"
       ],
