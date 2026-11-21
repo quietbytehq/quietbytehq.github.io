@@ -36,7 +36,7 @@
       "tagline": "Your folders, cloud drives and servers in one window.",
       "description": "A clean, modern file manager with Google Drive, OneDrive and Dropbox built in, plus SMB, SFTP and NFS network drives. Tabs and split view, archive browsing, undo/redo, a built-in terminal and a preview panel, plus Empty Trash, package install and password-protected archives.",
       "status": "released",
-      "version": "v2.1.0",
+      "version": "v2.1.1",
       "platforms": [
         "Linux",
         "Windows"
