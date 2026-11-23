@@ -13,7 +13,7 @@
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/timewizer",
-      "download": "https://github.com/quietbytehq/timewizer/releases/latest",
+      "download": "https://github.com/quietbytehq/timewizer/releases/tag/v0.2.0",
       "icon": "icons/timewizer.png"
     },
     {
@@ -28,7 +28,7 @@
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/orbit",
-      "download": "https://github.com/quietbytehq/orbit/releases/latest",
+      "download": "https://github.com/quietbytehq/orbit/releases/tag/v1.0.1",
       "icon": "icons/orbit.png"
     },
     {
@@ -43,7 +43,7 @@
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/stingray",
-      "download": "https://github.com/quietbytehq/stingray/releases/latest",
+      "download": "https://github.com/quietbytehq/stingray/releases/tag/v2.1.1",
       "icon": "icons/stingray.png"
     },
     {
@@ -58,7 +58,7 @@
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/burn-it",
-      "download": "https://github.com/quietbytehq/burn-it/releases/latest",
+      "download": "https://github.com/quietbytehq/burn-it/releases/tag/v0.1.0",
       "icon": "icons/burn-it.png"
     },
     {
@@ -73,7 +73,7 @@
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/graphite-mail",
-      "download": "https://github.com/quietbytehq/graphite-mail/releases/latest",
+      "download": "https://github.com/quietbytehq/graphite-mail/releases/tag/v1.12.1",
       "icon": "icons/graphite-mail.png"
     },
     {
@@ -88,7 +88,7 @@
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/madrasa",
-      "download": "https://github.com/quietbytehq/madrasa/releases",
+      "download": "https://github.com/quietbytehq/madrasa/releases/tag/v0.5.0-alpha",
       "icon": "icons/madrasa.png"
     },
     {
@@ -114,13 +114,28 @@
       ],
       "license": "MPL-2.0",
       "repo": "https://github.com/quietbytehq/LoboBrowser",
-      "download": "https://github.com/quietbytehq/LoboBrowser/releases",
+      "download": "https://github.com/quietbytehq/LoboBrowser/releases/tag/v0.1.0",
       "icon": "icons/lobster.png"
     },
     {
       "name": "SkyPop",
       "tagline": "Pop the balls, clear ten stages.",
-      "description": "A colourful Pang-inspired arcade game: ten illustrated stages, three rope styles, weapon upgrades, shields, gamepad support and local high scores. Built with Godot.",
+      "description": "A colourful Pang-inspired arcade game: ten illustrated stages, three rope styles, weapon upgrades, an illustrated story, optional global scoreboard and gamepad support. Built with Godot.",
+      "status": "released",
+      "version": "v1.1.0",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "license": "Apache-2.0",
+      "repo": "https://github.com/quietbytehq/skypop",
+      "download": "https://github.com/quietbytehq/skypop/releases/tag/v1.1.0",
+      "icon": "icons/skypop.png"
+    },
+    {
+      "name": "Teamux",
+      "tagline": "Microsoft Teams, made to work on Linux and Windows.",
+      "description": "An unofficial Microsoft Teams desktop client with native Wayland, PipeWire screen sharing and camera support on Linux, a video studio with skin smoothing, and an adaptive network guardian for weak branch-office links. Now also on Windows. Not affiliated with Microsoft.",
       "status": "released",
       "version": "v1.0.0",
       "platforms": [
@@ -128,52 +143,69 @@
         "Windows"
       ],
       "license": "Apache-2.0",
-      "repo": "https://github.com/quietbytehq/skypop",
-      "download": "https://github.com/quietbytehq/skypop/releases/latest",
-      "icon": "icons/skypop.png"
-    },
-    {
-      "name": "Teamux",
-      "tagline": "Microsoft Teams, made to work on Linux.",
-      "description": "An unofficial Microsoft Teams desktop client for Linux with native Wayland, PipeWire screen sharing and camera support, plus a video studio with skin smoothing and screen-share audio. Early preview; not affiliated with Microsoft.",
-      "status": "released",
-      "version": "v0.2.0",
-      "platforms": [
-        "Linux"
-      ],
-      "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/teamux",
-      "download": "https://github.com/quietbytehq/teamux/releases/latest",
+      "download": "https://github.com/quietbytehq/teamux/releases/tag/v1.0.0",
       "icon": "icons/teamux.png"
     },
     {
       "name": "The Last Pocket",
       "tagline": "Pool, snooker and a 48-rival championship.",
-      "description": "A Linux cue-sports game: ten pool, snooker and carom modes, local two-player, AI rivals and a comic-style championship. Source is Apache-2.0; the bundled music is licensed for use inside the game only.",
+      "description": "A cue-sports game: ten pool, snooker and carom modes, local two-player, AI rivals and a comic-style championship. Source is Apache-2.0; the bundled music is licensed for use inside the game only.",
       "status": "released",
-      "version": "v0.6.1",
+      "version": "v0.7.2",
       "platforms": [
-        "Linux"
+        "Linux",
+        "Windows"
       ],
       "license": "Apache-2.0 (source)",
       "repo": "https://github.com/quietbytehq/the-last-pocket",
-      "download": "https://github.com/quietbytehq/the-last-pocket/releases/latest",
+      "download": "https://github.com/quietbytehq/the-last-pocket/releases/tag/v0.7.2",
       "icon": "icons/the-last-pocket.png"
     },
     {
       "name": "Nudge",
       "tagline": "3D arcade pinball.",
-      "description": "A 3D pinball game built with Godot: two tables so far, Cosmic Drift (deep space) and Paradise Bay (island), with four more planned. Keyboard and controller, local top ten.",
+      "description": "A 3D pinball game built with Godot: three tables so far, Cosmic Drift (deep space), Paradise Bay (island) and Alpenglow (Swiss castle), with more planned. Keyboard and controller, local top ten.",
       "status": "released",
-      "version": "v0.1.1",
+      "version": "v0.5.1",
       "platforms": [
         "Linux",
         "Windows"
       ],
       "license": "Apache-2.0",
       "repo": "https://github.com/quietbytehq/nudge",
-      "download": "https://github.com/quietbytehq/nudge/releases/latest",
+      "download": "https://github.com/quietbytehq/nudge/releases/tag/v0.5.1",
       "icon": "icons/nudge.png"
+    },
+    {
+      "name": "Dangal",
+      "tagline": "A 2D fighting game set in Pakistan.",
+      "description": "An arcade fighter with two fighters, Rustam of Karachi and Baba Sher of Hunza, two animated stages, full voice acting, ultra moves and breakable props. Made with Godot.",
+      "status": "released",
+      "version": "v0.3.1",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "license": "Apache-2.0",
+      "repo": "https://github.com/quietbytehq/dangal",
+      "icon": "icons/dangal.png",
+      "download": "https://github.com/quietbytehq/dangal/releases/tag/v0.3.1"
+    },
+    {
+      "name": "Firebreak",
+      "tagline": "A jungle gallery shooter.",
+      "description": "An Operation Wolf-style gallery shooter: hold your position as the battlefield pans across a river village, shoot enemies, spare the villagers, buy weapons. Early development build, stage 1 of twelve.",
+      "status": "development",
+      "version": "v0.3.7",
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "license": "Apache-2.0",
+      "repo": "https://github.com/quietbytehq/firebreak",
+      "icon": "icons/firebreak.png",
+      "download": "https://github.com/quietbytehq/firebreak/releases/tag/v0.3.7"
     },
     {
       "name": "Darsgah",
